@@ -1,0 +1,8 @@
+[package]
+name = "libh5"
+version = "0.1.0"
+authors = ["Sherry Wu <code@shewu.me>"]
+edition = "2018"
+
+[dependencies]
+hdf5 = "0.5.2"

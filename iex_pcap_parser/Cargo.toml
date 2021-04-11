@@ -1,0 +1,16 @@
+[package]
+name = "iex_pcap_parser"
+version = "0.1.0"
+authors = ["Sherry Wu <code@shewu.me>"]
+edition = "2018"
+
+[dependencies]
+etherparse = "0.8.0"
+flate2 = { version = "1.0", features = ["zlib",] }
+hdf5 = "0.5.2"
+libdt = { path = "../libdt" }
+libh5 = { path = "../libh5" }
+libiex = { path = "../libiex" }
+log = "0.4"
+pcap = { version = "0.7" }
+pretty_env_logger = "0.3"
